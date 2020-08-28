@@ -1,1 +1,1 @@
-Sitemap: https://samuelarellano.dev//sitemap.xml
+Sitemap: https://samuelarellano.dev/sitemap.xml
