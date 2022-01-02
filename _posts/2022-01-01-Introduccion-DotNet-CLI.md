@@ -33,6 +33,10 @@ El comando principal o bien conocida como estructura básica de comandos es la s
 
 Debes de tener presente que todos los comandos comienzan con la palabra **dotnet**, sin ello no podrás ejecutar el CLI en tu consola. Una vez que hayas colocado la palabra **dotnet**, podremos utilizar un comando o verbo para realizar la acción que estemos solicitando.
 
-> NOTA: Cada comando puede contener argumentos y opciones.
+<div class="info-box orange">
+    <i class="fa fa-exclamation"></i> Nota
+    <div class="ce-bodytext">Cada comando puede contener argumentos y opciones.
+    </div>
+</div>
 
 En la siguiente tabla puedes observar los comandos que poco a poco iremos viendo a través de los siguientes artículos para entender su funcionamiento.
