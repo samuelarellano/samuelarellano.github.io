@@ -23,7 +23,7 @@ Para comprobar si la CLI está instalada correctamente abriendo el símbolo del 
 
 <img src="{{ site.github.url }}/assets/img/CLI.png" alt="DotNet CLI">
 
-> > > En lo personal siempre utilizo Visual Studio o VS Code, es por eso que me he dado a la tarea de estudiar y compartir lo que estoy aprendiendo en el tema de CLI.
+> En lo personal siempre utilizo Visual Studio o VS Code, es por eso que me he dado a la tarea de estudiar y compartir lo que estoy aprendiendo en el tema de CLI.
 
 Sin duda alguna, CLI contiene diversos comandos los cuales podemos clasificarlos como **comandos básicos, comandos de modificación de proyecto y el conjunto de comandos avanzados**. Estos comandos son utilizados de manera gráfica cuando utilizamos alguna plantilla como aplicaciones de consola, Web API, Proyectos ASP.NET MVC, etc. Pero con CLI los haremos en una interfaz de comandos.
 
@@ -33,6 +33,6 @@ El comando principal o bien conocida como estructura básica de comandos es la s
 
 Debes de tener presente que todos los comandos comienzan con la palabra **dotnet**, sin ello no podrás ejecutar el CLI en tu consola. Una vez que hayas colocado la palabra **dotnet**, podremos utilizar un comando o verbo para realizar la acción que estemos solicitando.
 
-> > > NOTA: Cada comando puede contener argumentos y opciones.
+> NOTA: Cada comando puede contener argumentos y opciones.
 
 En la siguiente tabla puedes observar los comandos que poco a poco iremos viendo a través de los siguientes artículos para entender su funcionamiento.
