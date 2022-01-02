@@ -23,8 +23,8 @@ Para comprobar si la CLI está instalada correctamente abriendo el símbolo del 
 
 <img src="{{ site.github.url }}/assets/img/CLI.PNG" alt="DotNet CLI">
 
-<div class="info-box orange">
-    <i class="fa fa-commenting"></i> <strong>Nota</strong>
+<div class="info-box">
+    <i class="fa fa-commenting"></i> <strong>Comentario Personal</strong>
         <div>
             En lo personal siempre utilizo Visual Studio o VS Code, es por eso que me he dado a la tarea de estudiar y compartir lo que estoy aprendiendo en el tema de CLI.
         </div>
