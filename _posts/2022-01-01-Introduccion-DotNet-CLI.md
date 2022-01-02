@@ -35,7 +35,7 @@ Debes de tener presente que todos los comandos comienzan con la palabra **dotnet
 
 <div class="info-box orange">
     <i class="fa fa-exclamation"></i> Nota
-    <div class="ce-bodytext">Cada comando puede contener argumentos y opciones.
+    <div>Cada comando puede contener argumentos y opciones.
     </div>
 </div>
 

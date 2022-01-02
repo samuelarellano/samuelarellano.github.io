@@ -191,14 +191,3 @@
 .css .nt + .nt {
   color: #999;
 }
-
-.info-box.orange {
-  background: #faebcc;
-}
-
-.info-box {
-  margin: 0 0 40px;
-  padding: 20px;
-  color: #3c3c3c;
-  background: #f2f2f2;
-}
