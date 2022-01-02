@@ -21,7 +21,7 @@ Es importante señalar que para poder hacer uso de la CLI, necesitamos realizar 
 
 Para comprobar si la CLI está instalada correctamente abriendo el símbolo del sistema en Windows y escribiendo dotnet y pulsando Enter. Si muestra el uso y la ayuda como se observa en la imagen, esto significa que está instalado correctamente.
 
-<img src="{{ site.github.url }}/assets/img/CLI.png" alt="DotNet CLI">
+<img src="{{ site.github.url }}/assets/img/CLI.PNG" alt="DotNet CLI">
 
 > En lo personal siempre utilizo Visual Studio o VS Code, es por eso que me he dado a la tarea de estudiar y compartir lo que estoy aprendiendo en el tema de CLI.
 
