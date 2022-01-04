@@ -57,7 +57,7 @@ Podrá visualizar como la herramienta de CLI empieza a generar los archivos.
 
 6. Es necesio utilizar el comando `dotnet build` para poder construir nuestra aplicación (compilar) y para poder ejecutarla `dotnet run`.
 
-<img src="{{ site.github.url }}/assets/img/proyecto-consola-dotnet-build.PNG" alt="Dotnet CLI version">
+<img src="{{ site.github.url }}/assets/img/proyecto-consola-build.PNG" alt="Dotnet CLI version">
 
 <img src="{{ site.github.url }}/assets/img/proyecto-consola-dotnet-run.PNG" alt="Dotnet CLI version">
 
