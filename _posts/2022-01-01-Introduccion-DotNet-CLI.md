@@ -45,3 +45,57 @@ Debes de tener presente que todos los comandos comienzan con la palabra **dotnet
 </div>
 
 En la siguiente tabla puedes observar los comandos que poco a poco iremos viendo a través de los siguientes artículos para entender su funcionamiento.
+
+**Comando Generales**
+
+| Comando             | Funcionalidad                                                                    |
+| ------------------- | -------------------------------------------------------------------------------- |
+| dotnet build        | Permite hacer build de aplicaciones .NET                                         |
+| dotnet build-server | Interactúa con los servidores iniciados por una compilación.                     |
+| dotnet clean        | Clean build outputs.                                                             |
+| dotnet help         | Muestra una documentación más detallada en línea para el comando.                |
+| dotnet migrate      | Permite realizar migraciones de proyectos de .NET a versiones posteriores.       |
+| dotnet msbuild      | Proporciona acceso a la línea de comandos de MSBuild.                            |
+| dotnet new          | Inicializa un proyecto de C# o F# mediante plantillas.                           |
+| dotnet pack         | Permite crear paquetes Nuget.                                                    |
+| dotnet publish      | Publica una aplicación dependiente del marco de trabajo .NET o autónoma.         |
+| dotnet restore      | Restores the dependencies for a given application.                               |
+| dotnet run          | Ejecuta la aplicación desde el origen.                                           |
+| dotnet sdk check    | Muestra el estado actualizado de las versiones instaladas del SDK y del Runtime. |
+| dotnet sln          | Opciones para añadir, eliminar y listar proyectos en un archivo de solución.     |
+| dotnet store        | Almacena los conjuntos en el almacén de paquetes en tiempo de ejecución.         |
+| dotnet test         | Ejecuta las pruebas utilizando un corredor de pruebas.                           |
+
+**Referencias de Proyecto**
+
+| Comando                 | Funcionalidad                       |
+| ----------------------- | ----------------------------------- |
+| dotnet add reference    | Añade una referencia de proyecto.   |
+| dotnet list reference   | Lista las referencias del proyecto. |
+| dotnet remove reference | Elimina una referencia de proyecto. |
+
+**Paquetes NuGet**
+
+| Comando               | Funcionalidad                    |
+| --------------------- | -------------------------------- |
+| dotnet add package    | Permite agregar un paquete NuGet |
+| dotnet remove package | Remover un paquete NuGet         |
+
+**Comandos NuGet**
+
+| Comando                     | Funcionalidad                                                                                                                                               |
+| --------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| dotnet nuget delete         | Elimina o quita de la lista un paquete del servidor.                                                                                                        |
+| dotnet nuget push           | Hace push un paquete al servidor y lo publica.                                                                                                              |
+| dotnet nuget locals         | Borra o lista los recursos locales de NuGet, como la caché de solicitudes http, la caché temporal o la carpeta de paquetes globales de toda la computadora. |
+| dotnet nuget add source     | Añade una fuente NuGet.                                                                                                                                     |
+| dotnet nuget disable source | Desactiva una fuente NuGet.                                                                                                                                 |
+| dotnet nuget enable source  | Activa una fuente NuGet.                                                                                                                                    |
+| dotnet nuget list source    | Lista todos los orígenes NuGet                                                                                                                              |
+| dotnet nuget remove source  | Elimina un origen NuGet.                                                                                                                                    |
+| dotnet nuget update source  | Actualiza un orgine NuGet                                                                                                                                   |
+
+En posteriores artículos veremos a fondo cada uno de estos comando y como podemos ir creando proyectos con .NET mediante **CLI**
+
+Saludos.
+Samuel Arellano
