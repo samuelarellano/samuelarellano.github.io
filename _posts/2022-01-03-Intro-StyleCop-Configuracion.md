@@ -46,7 +46,7 @@ Para este caso utilizaremos un proyecto en Consola en VS2019
 
 Paso 1: Abrimos VS2019 y presionamos el botón de **Create Project**
 
-<img src="{{ site.github.url }}/assets/img/proyecto-consola.PNG" alt="StyleCop">
+<img src="{{ site.github.url }}/assets/img/console-application.PNG" alt="StyleCop">
 
 Paso 2: Colocamos el nombre del demo `stylecopDemo`
 
@@ -87,9 +87,9 @@ Paso 5: Les recomiendo hacer una carpeta con el nombre **\_stylecop** donde colo
 
 Paso 6: Vamos a configurar nuestro archivo de proyecto **\*.csproj** y agregaremos las siguientes líneas.
 
-<img src="{{ site.github.url }}/assets/img/configuracion-stylecop.PNG" alt="StyleCop">
+<img src="{{ site.github.url }}/assets/img/configuracion-stylecop.png" alt="StyleCop">
 
-```csharp
+```
 <Project Sdk="Microsoft.NET.Sdk">
 
 <PropertyGroup>
@@ -134,7 +134,7 @@ Con esto hemos configurado las reglas y podemos comenzar a visualizar como **Sty
 
 <img src="{{ site.github.url }}/assets/img/lista-warnings-stylecop.PNG" alt="StyleCop">
 
-<a href="{{ site.github.url }}/assets/stylecopDemo.zip">[Puedes Descargar el código aquí
+<a href="{{ site.github.url }}/assets/stylecopDemo.zip">Puedes Descargar el código aquí
 
 Si quieres aprender más respecto a como realizar análisis de código tienes el siguiente artículo de Microsoft como referencia.
 https://docs.microsoft.com/en-us/dotnet/fundamentals/productivity/code-analysis
