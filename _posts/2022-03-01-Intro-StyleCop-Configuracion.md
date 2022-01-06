@@ -4,7 +4,7 @@ title: "Introducción a StyleCop y Configuración (VS2019)"
 author: "Samuel Arellano"
 categories: .NET
 tags: [dotnet, styleco, visualstudio, tools]
-image: Dotnet-new.png
+image: IntroStyleCop.png
 ---
 
 Que tal amigos,
