@@ -87,7 +87,7 @@ Paso 5: Les recomiendo hacer una carpeta con el nombre **\_stylecop** donde colo
 
 Paso 6: Vamos a configurar nuestro archivo de proyecto **\*.csproj** y agregaremos las siguientes líneas.
 
-<img src="{{ site.github.url }}/assets/img/configuracion-stylecop.png" alt="StyleCop">
+<img src="{{ site.github.url }}/assets/img/config-stylecop.PNG" alt="StyleCop">
 
 ```
 <Project Sdk="Microsoft.NET.Sdk">
