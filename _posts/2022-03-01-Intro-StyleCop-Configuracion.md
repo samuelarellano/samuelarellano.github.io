@@ -22,8 +22,6 @@ Bien, StyleCop tiene la facultad de analizar nuestro código aplicando una serie
 
 Referencia: [StyleCop](https://github.com/DotNetAnalyzers/StyleCopAnalyzers)
 
-<br>
-
 Lo interesante es que se puede ejecutar dentro de Visual Studio y es bastante funcional cuando debes de contar con una buena arquitectura de solución, te permite que respetes los principios SOLID
 
 Algo a tomar en cuenta, es que **StyleCop** tiene activadas todas las reglas por defecto, estas reglas son aquellas que nos brindarán sugerencias para mejorar la codificación que estamos realizando. Entre esas reglas podemos ver que requieres agregar tags de comentarios a las clases, secciones de copyright, headers, documentación de constructores, etc.
@@ -44,19 +42,19 @@ Pero bueno, vamos a ver como podemos realizar la configuración de **StyleCop** 
 
 Para este caso utilizaremos un proyecto en Consola en VS2019
 
-<img src="{{ site.github.url }}/assets/img/vs2019" alt="StyleCop">
+<img src="{{ site.github.url }}/assets/img/vs2019.PNG" alt="StyleCop">
 
 Paso 1: Abrimos VS2019 y presionamos el botón de **Create Project**
 
-<img src="{{ site.github.url }}/assets/img/proyecto-consola" alt="StyleCop">
+<img src="{{ site.github.url }}/assets/img/proyecto-consola.PNG" alt="StyleCop">
 
 Paso 2: Colocamos el nombre del demo `stylecopDemo`
 
-<img src="{{ site.github.url }}/assets/img/stylecop-demo" alt="StyleCop">
+<img src="{{ site.github.url }}/assets/img/stylecop-demo.PNG" alt="StyleCop">
 
 Paso 3: Instalamos el paquete NuGet para StyleCop.Analyzer
 
-<img src="{{ site.github.url }}/assets/img/stylecop-analyzer" alt="StyleCop">
+<img src="{{ site.github.url }}/assets/img/stylecop-analyzer.PNG" alt="StyleCop">
 
 <br>
 
@@ -64,11 +62,11 @@ Paso 4: Vamos a descargar las reglas de StyleCop que recomiendo para desarrollos
 
 Paso 5: Les recomiendo hacer una carpeta con el nombre **\_stylecop** donde colocaremos las reglas y vamos a crear un archivo **stylecop.json**. El archivo contendrá el siguiente código.
 
-<img src="{{ site.github.url }}/assets/img/folder-stylecop" alt="StyleCop">
+<img src="{{ site.github.url }}/assets/img/folder-stylecop.PNG" alt="StyleCop">
 
 <br>
 
-<img src="{{ site.github.url }}/assets/img/stylecop-json" alt="StyleCop">
+<img src="{{ site.github.url }}/assets/img/stylecop-json.PNG" alt="StyleCop">
 
 <br>
 
@@ -89,7 +87,7 @@ Paso 5: Les recomiendo hacer una carpeta con el nombre **\_stylecop** donde colo
 
 Paso 6: Vamos a configurar nuestro archivo de proyecto **\*.csproj** y agregaremos las siguientes líneas.
 
-<img src="{{ site.github.url }}/assets/img/configuracion-stylecop" alt="StyleCop">
+<img src="{{ site.github.url }}/assets/img/configuracion-stylecop.PNG" alt="StyleCop">
 
 ```csharp
 <Project Sdk="Microsoft.NET.Sdk">
@@ -134,7 +132,7 @@ Paso 6: Vamos a configurar nuestro archivo de proyecto **\*.csproj** y agregarem
 
 Con esto hemos configurado las reglas y podemos comenzar a visualizar como **StyleCop** nos comienza a mostrar las sugerencias o convenciones a mejorar en nuestra aplicación dentro del listado de _Warnings_ y _Errors_.
 
-<img src="{{ site.github.url }}/assets/img/lista-warnings-stylecop" alt="StyleCop">
+<img src="{{ site.github.url }}/assets/img/lista-warnings-stylecop.PNG" alt="StyleCop">
 
 <a href="{{ site.github.url }}/assets/stylecopDemo.zip">[Puedes Descargar el código aquí
 
