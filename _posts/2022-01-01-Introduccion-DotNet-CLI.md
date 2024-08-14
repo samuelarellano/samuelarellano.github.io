@@ -6,6 +6,7 @@ categories: .NET
 tags: [dotnet, cli, vscode]
 image: introDotNetCLI.png
 ---
+ESTA MODIFICADO
 
 Hola que tal mi gente:
 
